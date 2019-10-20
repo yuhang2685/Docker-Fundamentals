@@ -19,7 +19,7 @@ Docker is responsible for shipping the package to different platforms and run.
 
 ### 2. How Docker works?
 
-Picture here!
+![HowDockerWorks](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/How%20Docker%20works.png)
 
 - `Dockerfile` - describes steps to create a Docker image. It is like a recipe with all ingredients and steps necessary in making your dish.
 - `Docker image` - contains app requirements and dependencies.
@@ -30,7 +30,7 @@ Docker images can be pulled to Test Environment or Staging Environment.
 The app is ensured to behave same in different environments.
 
 #### Difference to virtual machine:
-Picture here!
+![DiffToVM](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/VM%20and%20Docker.png)
 
 - `VM`: There are multiple VMs in the hosting server, each has its OS and fixed resource allocation. Overhead.
 - `Docker`: There are multiple containers where each has app and dependencies / libraries.
