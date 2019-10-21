@@ -10,7 +10,7 @@ Where does Docker operate?:
 `Deployment` stage among the stages of `Design` / `Development` / `Deployment` / `Testing` / `Release`.
 
 Nowadays software has many components (Front-end/Back-end/DB/Dependencies). 
-It is requrired to run in many different platforms (which has installed different versions of dependenies).
+It is requrired to run in many different platforms (which has its own configurations, e.g., OS, configurations, installed different versions of dependenies).
 
 Hopefully you may have seen "shipping containers" before.
 Similarly, developer packs up an app with all it needs, such as libraries and other dependencies as one package.
@@ -22,9 +22,9 @@ Docker is responsible for shipping the package to different platforms and run.
 ![HowDockerWorks](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/How%20Docker%20works.png)
 
 - `Dockerfile` - describes steps to create a Docker image. It is like a recipe with all ingredients and steps necessary in making your dish.
-- `Docker image` - contains app requirements and dependencies.
-- `Docker container` - runtime instance of Docker image. Run Docker image to obtain it.
-- `Docker Hub` - online cloud repository for Docker images.
+- `Docker image` - Contains app requirements and dependencies. They are templates used to create containers.
+- `Docker container` - Runtime instance of Docker image. Run Docker image to obtain it.
+- `Docker Hub` - Online cloud repository for Docker images.
 
 Docker images can be pulled to Test Environment or Staging Environment.
 The app is ensured to behave same in different environments.
@@ -41,7 +41,7 @@ The app is ensured to behave same in different environments.
 
 ### 3. What are benifits of Docker?
 #### 1. Build only once:
-An application inside a container can run on any system has Docker installed.
+An application inside a container can run on "ANY" system has Docker installed.
 No need to build and configure application for different platforms.
 
 #### 2. Portability:
@@ -60,12 +60,18 @@ by Automation Step by Step - Raghav Pal.
 https://www.youtube.com/watch?v=ymlWt1MqURY
 
 Validate installation:
-In Docker terminal, run `docker --version`
+In Docker terminal, run 
+- `docker --version`
+- `docker run hello-world`
+- `docker images`
+
 
 ### 5. Basic commands:
 See "Docker Basic Commands" 
-by Automation Step by Step - Raghav Pal.
+by Automation Step by Step - Raghav Pal at
 https://www.youtube.com/watch?v=HqBMEmoAd1M
+
+Another good resource is "Exploring Docker [1] - Getting Started" by Traversy Media at https://www.youtube.com/watch?v=Kyx2PsuwomE
 
 ### Reference:
 "Docker Beginner Tutorial", by Automation Step by Step Raghav Pal.
