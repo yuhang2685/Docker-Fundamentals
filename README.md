@@ -4,32 +4,32 @@ Introduction to Docker | Installation | Basic Commands
 Author: Dr. Yuhang Zhao
 
 ### 1. What is Docker?
-Docker is software container platform.
+`Docker` is software container platform.
 
-Where does Docker operate?:
+Where does `Docker` operate?:
 `Deployment` stage among the stages of `Design` / `Development` / `Deployment` / `Testing` / `Release`.
 
-Nowadays software has many components (Front-end/Back-end/DB/Dependencies). 
-It is requrired to run in many different platforms (which has its own configurations, e.g., OS, configurations, installed different versions of dependenies).
+Nowadays software has many components (Front-end / Back-end / DB / Dependencies). 
+It is requrired to run in many different platforms (which has its own configurations, e.g., OS, installed libraries, dependenies).
 
 Hopefully you may have seen "shipping containers" before.
 Similarly, developer packs up an app with all it needs, such as libraries and other dependencies as one package.
-Docker is responsible for shipping the package to different platforms and run.
+`Docker` is responsible for shipping the package to different platforms and run.
 
 
 ### 2. How Docker works?
 
 ![HowDockerWorks](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/How%20Docker%20works.png)
 
-- `Dockerfile` - describes steps to create a Docker image. It is like a recipe with all ingredients and steps necessary in making your dish.
-- `Docker image` - Contains app requirements and dependencies. They are templates used to create containers.
-- `Docker container` - Runtime instance of Docker image. Run Docker image to obtain it.
-- `Docker Hub` - Online cloud repository for Docker images.
+- `Dockerfile` - Describes steps to create a `Docker image`. It is like a recipe with all ingredients and steps necessary in making your dish.
+- `Docker image` - Contains app requirements and dependencies. They are templates used to create `Docker containers`.
+- `Docker container` - Runtime instance of `Docker image`. Run `Docker image` to obtain it.
+- `Docker Hub` - Online cloud repository for `Docker images`.
 
-Docker images can be pulled to Test Environment or Staging Environment.
+`Docker images` can be pulled to Test Environment or Staging Environment.
 The app is ensured to behave same in different environments.
 
-#### Difference to virtual machine:
+#### Note the difference to virtual machine:
 ![DiffToVM](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/VM%20and%20Docker.png)
 
 - `VM`: There are multiple VMs in the hosting server, each has its OS and fixed resource allocation. Overhead.
@@ -62,9 +62,16 @@ https://www.youtube.com/watch?v=ymlWt1MqURY
 Validate installation:
 In Docker terminal, run 
 - `docker --version`
+
+![HowDockerWorks](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/Docker%20Installed.png)
+
 - `docker run hello-world`
+
+![HowDockerWorks](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/Hello-world.png)
+
 - `docker images`
 
+![HowDockerWorks](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/Docker%20Images.png)
 
 ### 5. Basic commands:
 See "Docker Basic Commands" 
