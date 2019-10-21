@@ -59,8 +59,9 @@ Following the installation steps in
 by Automation Step by Step - Raghav Pal.
 https://www.youtube.com/watch?v=ymlWt1MqURY
 
-Validate installation:
-In Docker terminal, run 
+#### Validate installation:
+
+In `Docker terminal`, run 
 - `docker --version`
 
 ![HowDockerWorks](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/Docker%20Installed.png)
