@@ -1,7 +1,7 @@
 ## Docker-Fundamentals
 Introduction to Docker | Installation | Basic Commands
 
-Author: Dr. Yuhang Zhao
+#### Author: Dr. Yuhang Zhao
 
 ### 1. What is Docker?
 `Docker` is software container platform.
@@ -55,9 +55,8 @@ Application works on its own container, and does not interferes with others.
 
 ### 4. Installation:
 Following the installation steps in 
-"Docker Beginner Tutorial 5 - How to install DOCKER on WINDOWS ? Step by Step" 
-by Automation Step by Step - Raghav Pal.
-https://www.youtube.com/watch?v=ymlWt1MqURY
+["Docker Beginner Tutorial 5 - How to install DOCKER on WINDOWS ? Step by Step"](https://www.youtube.com/watch?v=ymlWt1MqURY
+) by Automation Step by Step - Raghav Pal.
 
 #### Validate installation:
 
@@ -75,12 +74,11 @@ In `Docker terminal`, run
 ![HowDockerWorks](https://github.com/yuhang2685/Docker-Fundamentals/blob/master/Docker%20Images.png)
 
 ### 5. Basic commands:
-See "Docker Basic Commands" 
-by Automation Step by Step - Raghav Pal at
-https://www.youtube.com/watch?v=HqBMEmoAd1M
+See ["Docker Basic Commands"](https://www.youtube.com/watch?v=HqBMEmoAd1M) 
+by Automation Step by Step - Raghav Pal
 
-Another good resource is "Exploring Docker [1] - Getting Started" by Traversy Media at https://www.youtube.com/watch?v=Kyx2PsuwomE
+Another good resource is ["Exploring Docker (1) - Getting Started"](https://www.youtube.com/watch?v=Kyx2PsuwomE) by Traversy Media
 
 ### Reference:
-"Docker Beginner Tutorial", by Automation Step by Step Raghav Pal.
-https://www.youtube.com/watch?v=wi-MGFhrad0&list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
+["Docker Beginner Tutorial"](https://www.youtube.com/watch?v=wi-MGFhrad0&list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK) by Automation Step by Step Raghav Pal.
+
